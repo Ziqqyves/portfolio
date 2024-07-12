@@ -1,0 +1,106 @@
+body {
+    font-family: "Kaisei Decol", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica, Arial", "sans-serif";
+    background-color: #111;
+    color: white;
+}
+
+header {
+    background-color: #111;
+    color: white;
+    padding: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -80px; /* Adjust this value as needed to move the navigation bar to the left */
+}
+
+nav ul li {
+    margin: 0 40px;
+	margin-top: -30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.title {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 50px;
+}
+
+.contact-banner {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.contact-image {
+    flex: 1;
+}
+
+.contact-image img {
+    width: 100%;
+    height: auto;
+}
+
+.contact-info {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.contact-form {
+    padding: 40px;
+    background-image: url('images/contact-background.jpg'); /* Add your background image here */
+    background-size: cover;
+    background-position: center;
+}
+
+.form-container {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-container label,
+.form-container input,
+.form-container textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.form-container input,
+.form-container textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-container button {
+    padding: 10px 20px;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #333;
+}
